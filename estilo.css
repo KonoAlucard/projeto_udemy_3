@@ -1,0 +1,115 @@
+body{
+    background-color: #0c1014;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Gill sans', 'Gill sans MT';
+}
+
+.main_title {
+    text-transform: uppercase;
+    font-size: 62px;
+    text-align: center;
+    margin: 46px 0;
+}
+
+.header {
+    display: flex;
+    background-color: #050508b2;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-left: 16px;
+}
+
+.header_nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    gap: 16px;
+    
+}
+
+.header_nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 5px;
+}
+
+a.header_nav--active {
+    background-color: #cbe300;
+    color: #0c1014;
+    pointer-events: none;
+}
+
+.header_nav a:hover{
+    text-decoration: underline;
+}
+
+a.header_nav--active:hover{
+    text-decoration: none;
+}
+
+.pricing {
+    display: flex;
+    gap: 16px;
+}
+
+.pricing_plan {
+    flex: 1;
+    background-color: #1f262c;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 5px 12px -6px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing_plan_title{
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbe300;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.pricing_plan p {
+    margin-top: 0;
+
+}
+
+.pricing_plan_price {
+    font-size: 34px;
+
+}
+
+.price_plan_features {
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex:  1;
+}
+
+.pricing_plan_cta { 
+    text-decoration: none;
+    background-color: #cbe300;
+    color: #0c1014;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px 10px;
+
+}
+
+.price_plan_features li::marker {
+    color: #cbe300;
+}
